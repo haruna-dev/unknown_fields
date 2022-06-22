@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from unknown_fields import unknown_fields, Action
 
 
-@unknown_fields(action=Action.Action.Ignore)
+@unknown_fields(action=Action.Ignore)
 @dataclass
 class MyWrappedDataclass:
     a: int
